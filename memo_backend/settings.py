@@ -115,7 +115,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-DEBUG = False
+""" DEBUG = False """
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
@@ -129,5 +129,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
+    "http://localhost:5173/",
     "http://roulettch-memoapp-bucket.s3-website.us-east-2.amazonaws.com"
 ]
