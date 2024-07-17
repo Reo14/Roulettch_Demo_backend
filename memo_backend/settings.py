@@ -128,10 +128,12 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ALLOWED_ORIGINS = [
+ALLOWED_HOSTS = ['3.21.204.220', 'roulettch-memoapp-bucket.s3-website.us-east-2.amazonaws.com']
+
+""" CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173/",
     "http://roulettch-memoapp-bucket.s3-website.us-east-2.amazonaws.com"
-]
+] """
 
 CORS_ALLOW_ALL_ORIGINS = True
