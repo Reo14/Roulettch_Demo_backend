@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-ALLOWED_HOSTS = ['3.21.204.220', 'roulettch-memoapp-bucket.s3-website.us-east-2.amazonaws.com']
+ALLOWED_HOSTS = ['18.119.44.196', 'roulettch-memoapp-bucket.s3-website.us-east-2.amazonaws.com']
 
 """ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
